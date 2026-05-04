@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="高速・フルカスタムのWeb制作を定額で提供します。" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Studios | Web制作エージェンシー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="#top" aria-label="Studios ホーム">
+          <span class="logo-mark">///</span>
+          <span class="logo-text">Studios</span>
+        </a>
+        <nav class="nav">
+          <div class="nav-links">
+            <a class="nav-link" href="#reasons">価格の理由</a>
+            <a class="nav-link" href="#process">開発プロセス</a>
+            <a class="nav-link" href="#contact">お問い合わせ</a>
+          </div>
+          <a class="button button--outline" href="#contact">無料相談する</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-bg" aria-hidden="true">
+          <img src="src/assets/hero-bg.png" alt="抽象的なネオンテクノロジーの背景" />
+          <div class="hero-glow"></div>
+        </div>
+        <div class="container hero-content">
+          <div class="badge" data-reveal>
+            <span class="badge-dot"></span>
+            学生起業家 × AI開発
+          </div>
+          <h1 class="hero-title" data-reveal>
+            <span>圧倒的な速度で。</span>
+            <span>圧倒的な価格で。</span>
+          </h1>
+          <div class="pricing-card" data-reveal>
+            <p class="pricing-label">料金</p>
+            <p class="pricing-value">¥100,000 <span>（税込）</span></p>
+            <p class="pricing-note">ホームページ制作 / フルカスタム開発</p>
+          </div>
+          <div class="hero-actions" data-reveal>
+            <a class="button button--primary" href="#contact">
+              プロジェクトを始める
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h13" />
+                <path d="M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a class="button button--ghost" href="#reasons">なぜこの価格か？</a>
+          </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+          <span>スクロール</span>
+          <svg class="icon" viewBox="0 0 24 24">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </div>
+      </section>
+
+      <section id="reasons" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>常識を壊す。<span class="text-primary">3つの理由。</span></h2>
+            <p>
+              従来の制作会社は、中間マージン、営業コスト、レガシーな開発手法により無駄なコストを請求しています。私たちは最新のAI技術と学生の機動力を武器に、相場の1/5の価格で高品質なWebサイトを提供します。
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card" data-reveal>
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.5 16.5c-1.5 1.5-2 5.5-2 5.5s4-.5 5.5-2L19 9c1.5-1.5 1.5-4 0-5.5s-4-1.5-5.5 0L4.5 16.5z" />
+                  <path d="M12 8l4 4" />
+                </svg>
+              </div>
+              <h3><span class="card-index">01.</span> 学生起業家が直接制作</h3>
+              <p>
+                ディレクターや営業担当などの無駄な中間コストはゼロ。要件定義から実装まで、エンジニア自身が直接コミュニケーションを取り、あなたのビジョンを形にします。
+              </p>
+            </article>
+            <article class="card card-media" data-reveal>
+              <img class="card-bg" src="src/assets/ai-speed.png" alt="AIによる加速" loading="lazy" />
+              <div class="card-content">
+                <div class="card-icon">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" />
+                  </svg>
+                </div>
+                <h3><span class="card-index">02.</span> AIを活用した超高速開発</h3>
+                <p>
+                  最新の生成AIツールと独自開発のコンポーネントライブラリを駆使し、コーディング時間を劇的に短縮。人間のクリエイティビティとAIの処理能力を融合させています。
+                </p>
+              </div>
+            </article>
+            <article class="card card-media" data-reveal>
+              <img class="card-bg" src="src/assets/custom-code.png" alt="フルカスタムのコード" loading="lazy" />
+              <div class="card-content">
+                <div class="card-icon">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M16 18l6-6-6-6" />
+                    <path d="M8 6l-6 6 6 6" />
+                  </svg>
+                </div>
+                <h3><span class="card-index">03.</span> コード手打ちのフルカスタム</h3>
+                <p>
+                  WordPressやWixなどの重いテンプレートは使いません。ReactやViteなど、モダンな技術スタックでゼロからコーディング。圧倒的な表示速度と柔軟性を実現します。
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section manifesto">
+        <div class="ghost-word" aria-hidden="true">マニフェスト</div>
+        <div class="container manifesto-content" data-reveal>
+          <div class="icon-circle">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 5h16v14H4z" />
+              <path d="M8 9l2 2-2 2" />
+              <path d="M12 13h4" />
+            </svg>
+          </div>
+          <h2>「Webサイトは高すぎる。」その常識をコードで塗り替える。</h2>
+          <div class="manifesto-copy">
+            <p>
+              多くの企業が、「とりあえず」で作った遅くて重いWebサイトに数百万円を支払っています。私たちはそれに納得できませんでした。
+            </p>
+            <p>
+              技術は進化しています。AIを使えば、より早く、より洗練されたコードを書ける。学生だからこその情熱と時間で、妥協のないプロダクトを作れる。
+            </p>
+            <p class="emphasis">
+              ¥100,000は、安売りではありません。技術と効率化がもたらした、これからの時代の「適正価格」です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section section-alt">
+        <div class="container">
+          <div class="section-head center" data-reveal>
+            <h2>開発プロセス</h2>
+            <p>無駄な会議は省き、最短最速でローンチへ。</p>
+          </div>
+          <ol class="process-list">
+            <li class="process-step" data-reveal>
+              <div class="process-index">1</div>
+              <div>
+                <h3>ヒアリング & 要件定義</h3>
+                <p>オンラインで約1時間。目的とターゲットを明確にします。</p>
+              </div>
+            </li>
+            <li class="process-step" data-reveal>
+              <div class="process-index">2</div>
+              <div>
+                <h3>デザイン & 開発</h3>
+                <p>ヒアリング内容をもとに、即座にコードを書き始めます。途中経過を共有しながら進めます。</p>
+              </div>
+            </li>
+            <li class="process-step" data-reveal>
+              <div class="process-index">3</div>
+              <div>
+                <h3>レビュー & 修正</h3>
+                <p>実際の画面を触っていただき、細かい調整を行います。</p>
+              </div>
+            </li>
+            <li class="process-step" data-reveal>
+              <div class="process-index">4</div>
+              <div>
+                <h3>爆速納品</h3>
+                <p>最短2週間で公開。サーバーの初期設定まで全てお任せください。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div class="contact-intro" data-reveal>
+            <h2>準備はできましたか？ <span class="text-primary">まずは相談から。</span></h2>
+            <p>
+              あなたのビジネスを加速させるWebサイトを、驚くべきスピードと価格で。まずは無料相談から。
+            </p>
+            <ul class="checklist">
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                オンライン無料相談
+              </li>
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                最短2週間での納品
+              </li>
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                フルスクラッチのカスタム開発
+              </li>
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                スマートフォン完全対応
+              </li>
+            </ul>
+            <div class="direct-contact">
+              <p>直接連絡する</p>
+              <a href="mailto:taku810616@gmail.com">taku810616@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="form-panel" data-reveal>
+            <div class="form-corner form-corner--top"></div>
+            <div class="form-corner form-corner--bottom"></div>
+            <h3>プロジェクトのお問い合わせ</h3>
+            <div class="form-success is-hidden" data-form-success>
+              <div class="success-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <h4>送信完了しました</h4>
+              <p>お問い合わせ内容を確認次第、24時間以内にご返信いたします。</p>
+              <button class="button button--ghost" type="button" data-form-reset>新しいメッセージを送る</button>
+            </div>
+            <form class="contact-form" data-contact-form>
+              <label class="field">
+                <span>お名前</span>
+                <input type="text" name="name" placeholder="山田 太郎" required />
+              </label>
+              <label class="field">
+                <span>メールアドレス</span>
+                <input type="email" name="email" placeholder="hello@example.com" required />
+              </label>
+              <label class="field">
+                <span>ご相談内容</span>
+                <textarea name="message" rows="5" placeholder="現在のWebサイトの課題や、実現したいビジネスのアイデアなどをお書きください。" required></textarea>
+              </label>
+              <button class="button button--primary button--block" type="submit">
+                <span class="button-text">送信する</span>
+                <span class="button-spinner" aria-hidden="true"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="logo">
+          <span class="logo-mark">///</span>
+          <span class="logo-text">Studios</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <p class="footer-meta">&copy; <span data-year></span> /// Studios. すべて正常稼働中。</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
